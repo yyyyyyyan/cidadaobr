@@ -17,7 +17,7 @@ pip install cidadaobr
 ```
 Pelo git:
 ```
-git pull https://github.com/yanorestes/cidadaobr.git
+git clone https://github.com/yanorestes/cidadaobr.git
 ```
 
 ### Como usar
