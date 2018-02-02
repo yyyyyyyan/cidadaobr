@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
 	name = 'cidadaobr',
 	packages = ['cidadaobr'],
-	version = '1.0',
+	version = '1.02',
 	description = 'Gerador de dados aleatórios de um cidadão brasileiro.',
 	author = 'Yan Orestes',
 	author_email = 'yanorestes@hotmail.com',
