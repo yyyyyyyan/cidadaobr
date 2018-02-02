@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
-from infobasica import set_nome, set_data_nascimento, set_idade
-from cpf import set_cpf
-from endereco import Endereco
-from telefone import set_numero
-from rg import set_rg
+from .infobasica import set_nome, set_data_nascimento, set_idade
+from .cpf import set_cpf
+from .endereco import Endereco
+from .telefone import set_numero
+from .rg import set_rg
 
 class CidadaoBrasileiro():
     def __init__(self, nome='', data_nascimento='', estado=''):
