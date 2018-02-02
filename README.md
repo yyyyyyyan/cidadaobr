@@ -10,6 +10,16 @@ Essas instruções vão te garantir uma cópia do projeto rodando em sua máquin
 	* [Requests](https://docs.python-requests.org/pt_BR/latest/)
 	* [BeautifulSoup 4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
+### Instalação
+Pelo pip (recomendado):
+```
+pip install cidadaobr
+```
+Pelo git:
+```
+git pull https://github.com/yanorestes/cidadaobr.git
+```
+
 ### Como usar
 #### Instância da classe CidadaoBrasileiro
 * Construtor:
@@ -33,9 +43,9 @@ Essas instruções vão te garantir uma cópia do projeto rodando em sua máquin
 	* telefone_fixo (str)
 	* celular (str)
 * Métodos:
-	* __repr__ (retorna uma string contendo todos os dados formatados)
+	* \_\_repr\_\_ (retorna uma string contendo todos os dados formatados)
 	* json (retorna um dicionário contendo todos os dados)
-	* __getitem__ (param: index -- retorna o dado buscado no dicionário json com o index do parâmetro)
+	* \_\_getitem\_\_ (param: index -- retorna o dado buscado no dicionário json com o index do parâmetro)
 
 #### Exemplo de código
 Exemplo 1:
