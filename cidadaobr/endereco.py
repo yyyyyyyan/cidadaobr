@@ -31,7 +31,7 @@ class Endereco():
             self.ddd = dados['ddd']
         else:
             self.ddd = '00'
-            self.set_ddd_alternativo(estado, cidade)
+            self.set_ddd_alternativo(self.estado, self.cidade)
 
     def set_ddd_alternativo(estado, cidade):
         url = 'http://ddd.pricez.com.br/estados/{0}.json'.format(estado.lower())
