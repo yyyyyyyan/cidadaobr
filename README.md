@@ -1,4 +1,6 @@
 # cidadaobr
+**Esse projeto está desatualizado e será refeito em breve!**
+
 Gerador de dados aleatórios de um cidadão brasileiro. Ideal para desenvolvedores, mas sua utilidade depende de quem o usar
 
 ## Começando
